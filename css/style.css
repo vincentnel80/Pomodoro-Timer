@@ -50,8 +50,7 @@ body {
   top: 0.6em;
   right: 0.7em;
 }
-.lnr.lnr-question-circle,
-.lnr.lnr-cross {
+.lnr.lnr-question-circle, .lnr.lnr-cross {
   color: #fef8e7;
   font-size: 30px;
   cursor: pointer;
@@ -125,6 +124,7 @@ body {
   line-height: 1.4em;
 }
 /* Flex container */
+
 .settings__container {
   margin-top: 2em;
   padding: 1em 0;
@@ -153,6 +153,7 @@ body {
   opacity: 0;
 }
 /* Flex items */
+
 .settings__time {
   margin: 0 1em 1em;
   flex-grow: 1;
@@ -173,13 +174,10 @@ body {
   height: 30px;
   margin-top: 0.8em;
 }
-.settings__break-reset,
-.settings__work-reset {
+.settings__break-reset, .settings__work-reset {
   margin-top: 0.5em;
 }
-.settings__time-substract,
-.settings__time-digits,
-.settings__time-add {
+.settings__time-substract, .settings__time-digits, .settings__time-add {
   margin: 0.3em auto;
   color: #fff;
   font-size: 1.4em;
@@ -195,8 +193,7 @@ body {
   margin: 0 auto 0.4em;
   font-size: 1.6em;
 }
-.settings__time-substract,
-.settings__time-add {
+.settings__time-substract, .settings__time-add {
   display: block;
   width: 50px;
   border: 0;
@@ -221,7 +218,7 @@ body {
   left: 40%;
   width: 10px;
   height: 10px;
-  background-color: rgba(34,81,112,0.3);
+  background-color: rgba(34, 81, 112, 0.3);
   border-radius: 50%;
   transform: scale(1, 1) translate(-50%, -50%);
   opacity: 0;
@@ -258,6 +255,7 @@ body {
   transform: translateY(-50%);
 }
 /*** Clock ***/
+
 .clock-container {
   max-width: 100%;
   min-height: 220px;
@@ -381,15 +379,13 @@ body {
   bottom: 2.5em;
   left: calc(50% + 29px);
 }
-.clock__btn__play:hover ~ .clock-tooltip__play,
-.clock__btn__pause:hover ~ .clock-tooltip__pause,
-.clock__btn__reset:hover ~ .clock-tooltip__reset {
+.clock__btn__play:hover~.clock-tooltip__play, .clock__btn__pause:hover~.clock-tooltip__pause, .clock__btn__reset:hover~.clock-tooltip__reset {
   visibility: visible;
   opacity: 1;
   transform: translateY(0%);
 }
-
 /*** Footer ***/
+
 .footer {
   max-width: 100%;
   padding: 1.5em 0;
@@ -405,8 +401,6 @@ body {
 .footer__social-btn {
   margin-top: 0.4em;
 }
-.footer__social-btn .fa.fa-twitter-square,
-.footer__social-btn .fa.fa-codepen,
-.footer__social-btn .fa.fa-github-square {
+.footer__social-btn .fa.fa-twitter-square, .footer__social-btn .fa.fa-codepen, .footer__social-btn .fa.fa-github-square {
   color: #ef4c7d;
 }
